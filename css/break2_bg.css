@@ -1,0 +1,11 @@
+body {
+    background-image: url(../img/main_bg_m.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: #2750A0;
+}
+
+.backstretch {
+    display: none;
+}

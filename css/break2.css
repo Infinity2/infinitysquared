@@ -1,0 +1,315 @@
+.head1 {
+    display: none;
+}
+
+.head2 {
+    height: 110px;
+    
+}
+
+.head2 h1 {
+    font-size: 42px;
+    letter-spacing: -4px;
+    line-height: 41px;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+.head2 .logo_m {
+    display: inline;
+    float: left;
+}
+
+.head2 .logo_m img {
+    width: 120px;
+}
+
+.head2 .logo {
+    display: none;
+}
+
+.head2 .social_icons {
+    display: none;
+}
+
+.head2 .social_icons_m {
+    display: block;
+    float: right;
+    margin-top: 20px;
+}
+
+.head2 .social_icons_m a {
+    float: right;
+    margin-left: 6px;
+}
+
+.content.home {
+    height: 400px;
+}
+
+.contactus .c1 {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+.contactus .c2 {
+    width: 100%;
+}
+
+.c2 label span {
+    width: 30%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.c2 input, .c2 textarea {
+    width: 56%;   
+}
+
+.c2 .submit {
+    width: 59%;
+    margin-left: 32%;
+}
+
+.footer {
+    background: url(../img/footer_bg.png);
+}
+
+.fmenu {
+    display: none;
+}
+
+.fmenu_m {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fmenu_m li {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+}
+
+.fmenu_m li a {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    float: left;
+    line-height: 34px;
+}
+
+.fmenu_m li a:hover {
+    text-decoration: none;
+}
+
+.fmenu_m .green {
+    background-color: #849e00;
+}
+
+.fmenu_m .blue {
+    background-color: #004f91;
+}
+
+.fmenu_m .red {
+    background-color: #c0202a;
+}
+
+.fmenu_m .purple {
+    background-color: #bb00f0;
+}
+
+.fmenu_m .purple.gallery {
+    display: none;
+    background-color: #CF4FF0;
+}
+
+.fmenu_m .lblue {
+    background-color: #00899f;
+}
+
+.contactus h1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.contactus h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contactus p {
+    font-size: 20px;
+}
+
+.menu1 {
+    height: 50px;
+    margin-top: 12px;
+}
+
+.menu1 img {
+    height: 50px;
+}
+
+.menu_items a {
+    display: none;
+}
+
+.menu_items a.first {
+    display: inline;
+    line-height: 22px;
+    padding-left: 20px;
+    font-size: 34px;
+}
+
+.col3 {
+    display: block;
+    width: 100%;
+}
+
+.col3 a {
+    float: left;
+    clear: left;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.col1, .col2 {
+    display: none;
+}
+
+.col3 a {
+    color: #697f1f;
+}
+
+.col3 a.sel, .col3 a:hover {
+    color: #fff;
+    text-shadow:1px 1px #000;
+}
+
+.col3 a:active {
+    color: #697f1f;
+    text-shadow: none;
+}
+
+.col4 {
+    float: left;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.col4 .img_slider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 250px;
+}
+
+.col4 .img_slider img {
+    float: left;
+    width: 100%;
+}
+
+.col4 .arr {
+    position: absolute;
+    top: 50%;
+    width: 26px;
+    height: 75px;
+    margin-top: -37px;
+}
+
+.col4 .arr_l {
+    background: url(../img/arr_l.png) no-repeat;
+    left: 5px;
+}
+
+.col4 .arr_r {
+    background: url(../img/arr_r.png) no-repeat;
+    right: 5px;
+}
+
+.text, .text.ml300 {
+    margin-left: 4%;
+    width: 92%;
+    float: left;
+}
+
+.text.right {
+    margin-left: 4%;
+}
+
+.content.page {
+    float: left;
+    margin: 0 0 0 0;
+    width: 100%;
+    padding: 0;
+}
+
+.testimonial .text p {
+    font-size: 16px;
+}
+
+.footer .bottom.desktop-mode {
+    display: block;
+}
+
+.partner {
+    width: 100%;
+    margin-right: 0;
+}
+
+.partner img {
+    max-width: 90%;
+    height: auto;
+}
+
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project h3 {
+    margin-bottom: 0;
+}
+
+.project img {
+    max-width: 90%;
+    height: auto;
+    float: none;
+}
+
+.project .desc {
+    margin-left: 0;
+}
+
+
+/* ----------------------------------- */
+
+.motidogallery {
+    float: none;
+}
+
+.motidogallery .image1 {
+    float: none;
+}
+
+.thumbnails_holder {
+    display: block;
+}
+
+.thumbnails_holder_h {
+    display: none;
+}
+
+.motidogallery_full .loading, .motidogallery .loading {
+    margin: -20px -20px !important;
+}
