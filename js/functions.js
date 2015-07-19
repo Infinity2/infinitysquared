@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
     if (typeof home_slides !== 'undefined') {
-        console.log(home_slides);
         var bg_cnt = 0;
         $('.content.home').backstretch(home_slides[bg_cnt].photo, {fade: 2000});
 
