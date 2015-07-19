@@ -1,27 +1,30 @@
 $(document).ready(function(){
 
-    if (typeof home_bg !== 'undefined') {
-        $('.content.home').backstretch(home_bg[0], {fade: 2000});
-
+    if (typeof home_slides !== 'undefined') {
+        console.log(home_slides);
         var bg_cnt = 0;
+        $('.content.home').backstretch(home_slides[bg_cnt].photo, {fade: 2000});
+
+        $(window)
+            .on("backstretch.show", function() {
+                var title = home_slides[bg_cnt].title;
+                var location = home_slides[bg_cnt].location;
+                $(".backstretch-caption-content").html(location + '</br>' + title).show().addClass('animated fadeIn');
+            })
+            .on("backstretch.before", function(e, instance) {
+                $(".backstretch-caption-content").fadeOut();
+            });
+
         var change_bg = setInterval(function(){
             bg_cnt++;
 
-            if (bg_cnt == home_bg.length) {
+            if (bg_cnt == home_slides.length) {
                 bg_cnt = 0;
             }
 
-            $('.content.home').backstretch(home_bg[bg_cnt], {fade: 2500});
-
-            var prev_title = (bg_cnt == 0) ? home_bg.length : bg_cnt;
-
-            $('#t'+(prev_title)).fadeOut(750, function(){
-                $('#t'+(bg_cnt+1)).fadeIn(950);
-            });
+            $('.content.home').backstretch(home_slides[bg_cnt].photo, { fade: 500 });
         }, 9000);
     }
-
-    $.backstretch('img/main_bg.jpg');
 
     $(".fab").fancybox({
         'autoScale'         : true,
@@ -110,7 +113,7 @@ $(document).ready(function(){
             var next = $('.testimonials .text.sel').next('.text');
 
             curr.removeClass('sel');
-            
+
             if (next.length) {
                 next.addClass('sel');
             } else {
@@ -162,7 +165,7 @@ function resizeGalleryHolder() {
             gh = 750;
             gw = 750 * 1.6;
         }
-        
+
         var mlr = (ww - gw) / 2;
 
         $('.motidogallery').css({

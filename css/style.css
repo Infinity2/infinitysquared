@@ -324,20 +324,20 @@ a:hover {
     background-color: #000;
 }
 
-.location_title {
+.backstretch-caption {
     position: absolute;
     width: 100%;
-    background: url(../img/home_img_title_bg.png);
+    min-height: 3.15rem;
     bottom: 0;
+    background: url(../img/home_img_title_bg.png);
 }
 
-.location_title span {
+.backstretch-caption-content {
     float: right;
     margin-right: 20px;
     text-align: center;
     font-size: 18px;
     padding: 5px 0;
-    display: none;
     text-transform: uppercase;
 }
 
@@ -374,7 +374,7 @@ a:hover {
 
 .contactus h1, .contactus h2, .contactus p, .contactus span {
     color: #fff;
-    text-shadow:2px 2px #000;   
+    text-shadow:2px 2px #000;
 }
 
 .contactus h1 {
@@ -383,7 +383,7 @@ a:hover {
     margin:80px 0 0 0;
     font-weight:bold;
     font-family:delicious_heavyregular;
-    
+
 }
 
 .contactus h2 {
@@ -400,7 +400,7 @@ a:hover {
 
 .contactus p a img {
     margin-right:12px;
-    
+
 }
 
 .contactus .c1, .contactus .c2 {
@@ -827,4 +827,60 @@ div.error {
 
 .motidogallery .image1 .arr:hover span {
     background-position: 0 -74px;
+}
+
+
+/* ANIMATIONS */
+.animated {
+    -webkit-animation-duration: 1.2s;
+    -moz-animation-duration: 1.2s;
+    -o-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
 }
