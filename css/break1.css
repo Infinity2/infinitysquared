@@ -1,0 +1,105 @@
+.container {
+    min-width: 96%;
+}
+
+.head2 h1 {
+    font-size: 68px;
+    letter-spacing: -5px;
+    line-height: 98px;
+    
+}
+
+.content.home {
+    height: 600px;
+}
+
+.container.contactus {
+}
+
+.contactus .c1 {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.contactus .c2 {
+    
+}
+
+.c2 input, .c2 textarea {
+    width: 220px;   
+}
+
+.c2 .submit {
+    width: 240px;
+}
+
+.c2 label span {
+    font-size: 20px;
+}
+
+.contactus h1 {
+    font-size: 34px;
+    margin-top: 40px;
+}
+
+.contactus h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contactus p {
+    font-size: 20px;
+}
+
+.footer {
+    background: url(../img/footer_bg.png);
+}
+
+.fmenu ul li a {
+    display: none;
+}
+
+.fmenu ul li a.first {
+    display: inline;
+}
+
+.fmenu.red ul li a {
+    display: inline;
+}
+
+.menu_items a {
+    font-size: 22px;
+}
+
+.menu_items a.sel, .menu_items a:hover {
+    font-size: 26px;
+}
+
+.col1 {
+    width: 160px;
+}
+
+.col1 a {
+    font-size: 22px;
+}
+
+.col2 {
+    width: 180px;
+}
+
+.col2 a img {
+    width: 180px;
+}
+
+.text {
+    margin-left: 360px;
+}
+
+.text.ml300 {
+    margin-left: 200px;
+}
+
+.text.right {
+    margin-left: 160px;
+    margin-right: 190px;
+}
